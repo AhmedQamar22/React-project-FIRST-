@@ -1,0 +1,41 @@
+
+.home{
+    position:absolute;
+    left:50% ;
+    top: 50%;
+    background-color: #1abc9c !important;
+    color:white;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100vh;
+}
+.icon::before{
+    content: "";
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    margin-left: 70px;
+    top: 50%;
+}
+.icon::after{
+    content: "";
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    margin-right: 70px;
+    top: 50%;
+}
+.icon{
+    position: relative;
+    
+}
+
+img{
+    width: 250px;
+}
+
+

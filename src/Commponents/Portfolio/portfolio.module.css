@@ -1,0 +1,38 @@
+.margin{
+    margin-top: 100px;
+}
+.ions{
+    position: relative;
+}
+.ions::before{
+    content: "";
+    background-color: #2C3E50 !important;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ions::after{
+    content: "";
+    background-color: #2C3E50 !important;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layer{
+    background-color:#1abc9ce6 ;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
