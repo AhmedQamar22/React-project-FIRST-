@@ -19,22 +19,46 @@ export default function Portfolio() {
         <div className="container  h-50 w-50">
           <div className="row g-5">
             <div className="col-lg-4 col-md-6">
-              <img src={img1} className=" img-thumbnail rounded-3 overflow-hidden " alt="pic" />
+              <img
+                src={img1}
+                className=" img-thumbnail rounded-3 overflow-hidden "
+                alt="pic"
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <img src={img2} className="img-thumbnail rounded-3 overflow-hidden " alt="pic" />
+              <img
+                src={img2}
+                className="img-thumbnail rounded-3 overflow-hidden "
+                alt="pic"
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <img src={img3} className=" img-thumbnail rounded-3 overflow-hidden " alt="pic" />
+              <img
+                src={img3}
+                className=" img-thumbnail rounded-3 overflow-hidden "
+                alt="pic"
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <img src={img1} className=" img-thumbnail rounded-3 overflow-hidden " alt="pic" />
+              <img
+                src={img1}
+                className=" img-thumbnail rounded-3 overflow-hidden "
+                alt="pic"
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <img src={img2} className=" img-thumbnail rounded-3 overflow-hidden" alt="pic" />
+              <img
+                src={img2}
+                className=" img-thumbnail rounded-3 overflow-hidden"
+                alt="pic"
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <img src={img3} className=" img-thumbnail rounded-3  overflow-hidden" alt="pic" />
+              <img
+                src={img3}
+                className=" img-thumbnail rounded-3  overflow-hidden"
+                alt="pic"
+              />
             </div>
           </div>
         </div>
